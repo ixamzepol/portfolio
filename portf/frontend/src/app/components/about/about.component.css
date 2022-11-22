@@ -1,0 +1,55 @@
+.row {
+    padding: 20px;
+}
+div {
+    background-color: skyblue;
+}
+@media (min-width: 576px) {
+    #profilepic{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 2%;
+        top: 628px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    #profilepic{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 40%;
+        top: 631px;
+    }
+    #name {
+        font-weight: bold;
+        margin-top: 7%;
+    
+    }
+}
+
+
+@media (max-width: 490px) {
+    #profilepic{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 40%;
+        top: 631px;
+    }
+    #name {
+        font-weight: bold;
+        margin-top: 7%;
+    
+    }
+}
+#name {
+    font-weight: bold;
+    margin-top: 7%;
+
+}
